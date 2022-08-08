@@ -42,30 +42,16 @@ The first thing we need to do is add the bloc package to our pubspec.yaml as a d
 
 ```dart
 dependencies:flutter:sdk: flutter# State
-provider: ^
-5.0
-.0
-state_notifier: ^
-0.7
-.0
-flutter_state_notifier: ^
-0.7
-.0
-built_value: ^
-7.0
-.9
-built_collection: ^
-5.0
-.0
+provider: ^5.0.0
+state_notifier: ^0.7.0
+flutter_state_notifier: ^0.7.0
+built_value: ^7.0.9
+built_collection: ^5.0.0
 
 
 dev_dependencies:flutter_test:sdk: flutter
-built_value_generator: ^
-7.0
-.9
-build_runner: ^
-1.7
-.4
+built_value_generator: ^7.0.9
+build_runner: ^1.7.4
 
 ```
 
