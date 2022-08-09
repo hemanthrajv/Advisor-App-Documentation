@@ -21,3 +21,16 @@ dev_dependencies:
   built_value_generator: ^7.0.9
   build_runner: ^1.7.4
 ```
+## To get Build
+### Android 
+Dev - flutter build appbundle --flavor dev -t lib/main-dev.dart  
+Staging - flutter build appbundle --flavor staging -t lib/main-staging.dart  
+Prod - flutter build appbundle --flavor prod -t lib/main-prod.dart  
+
+
+### IOS 
+Dev - flutter build ipa --flavor dev -t lib/main-dev.dart  
+Staging - flutter build ipa --flavor staging -t lib/main-staging.dart  
+Prod - flutter build ipa --flavor prod -t lib/main-prod.dart  
+
+
